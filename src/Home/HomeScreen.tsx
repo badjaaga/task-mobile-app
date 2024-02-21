@@ -1,8 +1,9 @@
-import { Image, StyleSheet, View } from "react-native";
+import { StyleSheet, View } from "react-native";
 import { FontAwesomeIcon } from "@fortawesome/react-native-fontawesome";
 import { faArrowCircleRight } from "@fortawesome/free-solid-svg-icons/faArrowCircleRight";
+import { faUmbrella } from "@fortawesome/free-solid-svg-icons";
 import { IconButton } from "react-native-paper";
-import { CustomText } from "../shared/CustomText";
+import { ParagraphRegular, ParagraphBold } from "../shared/CustomText";
 
 export const HomeScreen = ({navigation}) => {
   const navigateToSearchScreen = () => {
@@ -10,11 +11,9 @@ export const HomeScreen = ({navigation}) => {
   }
   return (
     <View style={styles.container}>
-      <Image
-        source={require('../assets/images/umbrella.png')}
-        style={{width: 150, height: 150 }}
-      />
-      <CustomText style={styles.text}>Weather app</CustomText>
+      <FontAwesomeIcon style={styles.icon} icon={faUmbrella} size={164} />
+      <ParagraphBold style={styles.title}>Breeze</ParagraphBold>
+      <ParagraphRegular style={styles.subtitle}>Weather app</ParagraphRegular>
       <IconButton
         icon={() => <FontAwesomeIcon style={styles.icon} icon={faArrowCircleRight} size={48} />}
         onPress={navigateToSearchScreen}
@@ -35,10 +34,14 @@ const styles = StyleSheet.create({
   icon: {
     color: '#0094FF'
   },
-  text: {
+  title: {
+    marginTop: 64,
     color: '#ffffff',
-    fontWeight: "800",
-    fontSize: 24,
-    marginBottom: 24,
+    fontSize: 24
+  },
+  subtitle: {
+    color: '#9BA0A5',
+    fontSize: 18,
+    marginBottom: 48
   }
 })
