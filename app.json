@@ -25,16 +25,7 @@
     },
     "web": {
       "favicon": "./src/assets/icons/favicon.png"
-    },
-    "plugins": [
-      ["expo-font",
-        {
-          "fonts": [
-            "./assets/fonts/PingFang-SC-Regular.ttf",
-            "./assets/fonts/PingFang-SC-Bold.ttf",
-            "./assets/fonts/PingFang-SC-Light.ttf"
-          ]
-        }]
-    ]}
+    }
+  }
 }
 
