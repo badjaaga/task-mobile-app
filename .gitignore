@@ -104,7 +104,7 @@ shellAppWorkspaces
 /client-builds
 
 # Expo web env
-.env.development
+.env
 .env.development
 .env.development.local
 .env.test.local
