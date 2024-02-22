@@ -10,7 +10,7 @@ This is a mobile application built with React Native and Expo.
 
 ## <a id="introduction"></a> Introduction 
 
-Welcome to the Task Mobile App! This mobile application is a weather forecast tool built using React Native Expo, designed to provide real-time weather data for cities around the world. Leveraging the power of the OpenWeatherMap API, users can effortlessly stay informed about current weather conditions, including temperature, humidity, and general weather patterns.
+Welcome to the Task Mobile App! This mobile application is a weather forecast tool built using React Native Expo, designed to provide real-time weather data for cities around the world. Leveraging the power of the [OpenWeatherMap API](https://openweathermap.org/), users can effortlessly stay informed about current weather conditions, including temperature, humidity, and general weather patterns.
 
 <img src="docs/home_page.png" width="200" height="390" alt="home_page">
 <img src="docs/search_page.png" width="200" height="390" alt="search_page">
