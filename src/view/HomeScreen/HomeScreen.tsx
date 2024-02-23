@@ -3,9 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
 import { faArrowCircleRight } from '@fortawesome/free-solid-svg-icons/faArrowCircleRight'
 import { faUmbrella } from '@fortawesome/free-solid-svg-icons'
 import { IconButton } from 'react-native-paper'
-import { ParagraphBold, ParagraphRegular } from '../shared/Paragraph'
+import { ParagraphBold, ParagraphRegular } from '../../shared/Paragraph'
 
-export const HomeScreen = ({ navigation, route }) => {
+export const HomeScreen = ({ navigation }) => {
   const navigateToSearchScreen = () => {
     navigation.navigate('Search')
   }

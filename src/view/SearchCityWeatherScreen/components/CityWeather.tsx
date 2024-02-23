@@ -3,10 +3,10 @@ import { Image, StyleSheet, TouchableOpacity, View } from 'react-native'
 import { useNavigation } from '@react-navigation/native'
 import { Unit, CurrentResponse } from 'openweathermap-ts/dist/types'
 
-import { ParagraphBold, ParagraphLight } from '../../shared/Paragraph'
-import { calculateCurrentTime } from '../../utils/calculateCurrentTime'
-import { formatTemperature } from '../../utils/formatTemperature'
-import { useAppContext } from '../../context/AppContext'
+import { ParagraphBold, ParagraphLight } from '../../../shared/Paragraph'
+import { calculateCurrentTime } from '../../../utils/calculateCurrentTime'
+import { formatTemperature } from '../../../utils/formatTemperature'
+import { useAppContext } from '../../../context/AppContext'
 
 interface Props {
   data: Partial<CurrentResponse>

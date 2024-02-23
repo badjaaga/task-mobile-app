@@ -7,11 +7,11 @@ import {
   ActivityIndicator,
   FlatList,
 } from 'react-native'
-import weatherService from '../services/weatherService'
-import { formatTemperature } from '../utils/formatTemperature'
-import { ParagraphBold, ParagraphLight } from '../shared/Paragraph'
-import { useAppContext } from '../context/AppContext'
-import { formatWindSpeed } from '../utils/formatWindSpeed'
+import weatherService from '../../services/weatherService'
+import { formatTemperature } from '../../utils/formatTemperature'
+import { ParagraphBold, ParagraphLight } from '../../shared/Paragraph'
+import { useAppContext } from '../../context/AppContext'
+import { formatWindSpeed } from '../../utils/formatWindSpeed'
 
 const CityWeatherForecastScreen = ({ route }) => {
   const { units } = useAppContext()

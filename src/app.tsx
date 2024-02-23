@@ -1,9 +1,9 @@
 import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
-import { HomeScreen } from './HomeScreen/HomeScreen'
-import { SearchScreen } from './SearchCityWeatherScreen/SearchScreen'
-import CityWeatherForecastScreen from './CityWeatherForecastScreen/CityWeatherForecast'
+import { HomeScreen } from './view/HomeScreen/HomeScreen'
+import { SearchScreen } from './view/SearchCityWeatherScreen/SearchScreen'
+import CityWeatherForecastScreen from './view/CityWeatherForecastScreen/CityWeatherForecast'
 import { AppContextProvider } from './context/AppContext'
 
 const Stack = createNativeStackNavigator()

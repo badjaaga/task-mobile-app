@@ -12,10 +12,10 @@ import {
   Platform,
 } from 'react-native'
 import { useDebounce } from 'usehooks-ts'
-import weatherService from '../services/weatherService'
-import { uniqueById } from '../utils/uniqueByID'
-import { ParagraphLight } from '../shared/Paragraph'
-import { useAppContext } from '../context/AppContext'
+import weatherService from '../../services/weatherService'
+import { uniqueById } from '../../utils/uniqueByID'
+import { ParagraphLight } from '../../shared/Paragraph'
+import { useAppContext } from '../../context/AppContext'
 import { CityWeather } from './components/CityWeather'
 
 export const SearchScreen: React.FC = () => {
